@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "https://obsidian-motorcycles.obsidian2026.chatgpt.site/:splat"
+  status = 200
+  force = true
