@@ -1,0 +1,15 @@
+.contact-email-section{padding:95px 7vw;background:#252626;border-block:1px solid #494949;display:grid;grid-template-columns:.72fr 1.28fr;gap:7vw;align-items:start}
+.contact-email-intro h2{margin:0 0 28px}
+.contact-email-intro p{color:#bcbcb8;line-height:1.75;max-width:520px}
+.contact-email-form{display:grid;grid-template-columns:1fr 1fr;gap:20px;background:#171717;border:1px solid #555;padding:clamp(26px,4vw,48px)}
+.contact-email-form label{display:flex;flex-direction:column;gap:9px;color:#eee;font:700 12px var(--font-condensed);letter-spacing:.08em;text-transform:uppercase}
+.contact-email-form .wide{grid-column:1/-1}
+.contact-email-form input,.contact-email-form textarea{width:100%;border:1px solid #5d5d5d;background:#292929;color:#fff;padding:15px;font:400 15px var(--font-body);text-transform:none;letter-spacing:0}
+.contact-email-form textarea{resize:vertical}
+.contact-email-form .button{width:max-content;grid-column:1/-1}
+.form-trap{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+@media(max-width:850px){.contact-email-section{grid-template-columns:1fr}.contact-email-form{grid-template-columns:1fr}.contact-email-form .wide{grid-column:auto}}
+@media(max-width:600px){.contact-email-section{padding:70px 22px}.contact-email-form{padding:25px 20px}.contact-email-form .button{width:100%;grid-column:auto}}
+
+/* Manufacturer marks are local files; this treatment makes every mark visible in greyscale. */
+.make-logo img{filter:grayscale(1) saturate(0) brightness(0) invert(.86) contrast(1.12)!important;opacity:1!important}

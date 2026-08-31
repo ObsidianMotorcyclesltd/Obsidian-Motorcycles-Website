@@ -1,0 +1,4 @@
+import Link from "next/link";
+import PageShell,{PageHero} from "../SiteChrome";
+
+export default function CancellationReceived(){return <PageShell><PageHero eyebrow="Membership cancellation" title="Message sent" art="/brand-phrases/message-sent.png" copy="Your membership cancellation request has been submitted to Obsidian Motorcycles Ltd." actions={<Link className="button" href="/membership-terms">Read membership terms</Link>}/><section className="legal-copy"><h2>Thank you</h2><p>Obsidian will match the request to your membership and GoCardless subscription, then confirm the effective cancellation date and any payment or refund position by email without undue delay. Our operational aim is normally within 24 hours.</p><p>If you do not receive confirmation, email <a href="mailto:info@obsidianmotorcycles.com?subject=Membership%20cancellation%20follow-up">info@obsidianmotorcycles.com</a>.</p></section></PageShell>}
