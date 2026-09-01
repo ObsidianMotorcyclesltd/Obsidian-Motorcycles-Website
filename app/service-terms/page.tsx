@@ -1,11 +1,26 @@
 import PageShell,{PageHero} from "../SiteChrome";
 export default function ServiceTerms(){return <PageShell>
-<PageHero eyebrow="Legal" title="Service terms & conditions" copy="Terms for motorcycle mechanics, diagnostics, breakdown assistance, recovery and transport. Last updated 24 August 2026."/>
+<PageHero eyebrow="Legal" title="Service terms & conditions" copy="Terms for motorcycle mechanics, scheduled servicing, diagnostics, breakdown assistance, recovery and transport. Last updated 1 September 2026."/>
 <section className="legal-copy">
 <h2>Bookings and availability</h2>
 <p>Normal operations are 7:00am to 6:00pm Monday to Saturday. Obsidian operates a 24-hour contact and call-out service subject to staff, vehicle, parts, weather, traffic and safety. Sundays are call-out only. Arrival and completion times are estimates unless expressly guaranteed in writing.</p>
 <h2>Prices and diagnostics</h2>
 <p>Current rates are those agreed when the booking is accepted. Diagnostic investigation is charged at £50 for the first hour and £45 for each additional hour. At our discretion, diagnostic charges may be waived or reduced where the resulting repair work is undertaken by Obsidian. Parts, materials, mileage, recovery, transport, storage and additional labour are charged separately where applicable.</p>
+<h2>Scheduled servicing – labour-only pricing</h2>
+<ol>
+<li>Advertised scheduled-service prices are labour-only unless expressly stated otherwise.</li>
+<li>Parts, oils, lubricants, filters, fluids, spark plugs and other service consumables are charged separately.</li>
+<li>The final cost of parts and consumables depends on the motorcycle make, model, specification, manufacturer requirements, oil capacity and the products selected by the customer.</li>
+<li>Customers may request particular oil brands, specifications or specialist lubricants where suitable for their motorcycle. These are charged at the applicable cost.</li>
+<li>Where practical, Obsidian Motorcycles Ltd will inform the customer of additional costs before parts or lubricants are supplied.</li>
+<li>The advertised service price assumes the motorcycle is in reasonably serviceable condition and that normal access to service components is available.</li>
+<li>Additional labour may be charged where extra work is required because of extensive fairing or bodywork removal, aftermarket modifications, corrosion, seized fasteners, damaged components, previous poor repairs, difficult access, specialist manufacturer procedures or additional diagnostic investigation.</li>
+<li>Valve-clearance inspection and adjustment are not included in the standard advertised labour price unless expressly stated. Where required by the manufacturer’s service schedule, this work may be quoted separately.</li>
+<li>Replacement or repair of worn, damaged or defective components identified during servicing is not included in the scheduled-service labour price.</li>
+<li>No additional repair work will be undertaken without customer authorisation, except where immediate action is reasonably necessary to prevent danger or further damage and the customer cannot reasonably be contacted.</li>
+<li>Obsidian Motorcycles Ltd reserves the right to provide an individual quotation where a motorcycle falls outside the normal scope of the advertised service package.</li>
+</ol>
+<p><strong>Obsidian Motorcycles Ltd aims to operate transparent pricing. Where additional parts, labour or repair work is identified, the customer will normally be contacted for approval before the additional work is carried out.</strong></p>
 <h2>Estimates and additional work</h2>
 <p>Estimates are based on the information and condition reasonably available at the time and are not fixed quotations unless expressly described as fixed. We will seek approval before additional work. Where immediate action is reasonably necessary to prevent danger or further damage and the customer cannot reasonably be contacted, we may take proportionate protective action and charge a reasonable amount for it.</p>
 <h2>Parts</h2>
