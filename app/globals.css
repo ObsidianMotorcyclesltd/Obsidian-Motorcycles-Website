@@ -587,3 +587,26 @@ h4[data-brandified] .brand-space,h5[data-brandified] .brand-space,h6[data-brandi
   .brush-heading-2[data-brandified],h2[data-brandified]{font-size:42px!important}
   .brush-heading-3[data-brandified],h3[data-brandified]{font-size:34px!important}
 }
+
+/* Scheduled service labour-pricing presentation. */
+.service-pricing-poster-section{padding:72px 5vw 44px;background:#0b0b0b;text-align:center}
+.service-pricing-poster-section>a{display:block;width:min(1500px,100%);margin:0 auto}
+.service-pricing-poster-section img{display:block;width:100%;height:auto;object-fit:contain;border:1px solid #3d3d3d;box-shadow:0 22px 55px rgba(0,0,0,.42)}
+.service-pricing-poster-compact{padding-top:70px;border-top:1px solid #353535}
+.service-labour-alert{width:min(1050px,100%);margin:24px auto 0;padding:17px 22px;border:1px solid #555;background:#171717;color:#d0d0cc;font:500 17px/1.55 var(--font-body),Arial,sans-serif;text-align:center}
+.service-labour-alert strong{color:#fff;font-weight:800;text-transform:uppercase}
+.service-price-basis{display:inline-block;align-self:flex-start;margin:14px 0 0;padding:8px 12px;border:1px solid #737373;background:#0c0c0c;color:#fff;font:700 14px/1 var(--font-condensed),Arial,sans-serif;letter-spacing:.09em;text-transform:uppercase}
+.service-package-note{margin-top:20px;padding:15px 16px;border-left:3px solid #fff;background:#101010;color:#c4c4c0;line-height:1.6}
+.service-inclusions-section{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:18px;padding:90px 6vw;background:#101010;border-block:1px solid #393939}
+.service-inclusions-section>div{padding:clamp(28px,4vw,52px);border:1px solid #454545;background:#171717}
+.service-inclusions-section .brush-heading{width:min(100%,680px);margin-bottom:24px!important}
+.service-inclusions-section p{color:#bebeba;line-height:1.72}
+.service-inclusions-section p+p{margin-top:18px}
+.service-inclusions-section strong{color:#fff}
+.service-inclusions-section ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px;list-style:none;margin:12px 0 22px;padding:0}
+.service-inclusions-section li{position:relative;padding:8px 0 8px 22px;color:#c6c6c2;border-bottom:1px solid #303030}
+.service-inclusions-section li:before{content:"✓";position:absolute;left:0;color:#fff;font-weight:900}
+.servicing-terms-placeholder{border-color:#515151!important;background:#171717!important}
+.servicing-terms-placeholder a{color:#fff;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1050px){.service-package-image{grid-row:1/9}.service-inclusions-section{grid-template-columns:1fr}}
+@media(max-width:700px){.service-pricing-poster-section{padding:48px 14px 34px}.service-labour-alert{font-size:15px;padding:15px}.service-inclusions-section{padding:70px 22px}.service-inclusions-section ul{grid-template-columns:1fr}.service-price-basis{align-self:flex-start}}
